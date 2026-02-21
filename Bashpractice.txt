@@ -1,0 +1,30 @@
+(base) root@H223-GL-LT2:~# nano test12.sh
+(base) root@H223-GL-LT2:~# ls
+123.txt                              crop_div.txt       pheno                practice_lab.txt  test11.sh
+For                                  downloads          practice.sh          sample.txt        test12.sh
+Miniconda3-latest-Linux-x86_64.sh    home_practice.txt  practice_folder      test.sh           test2.sh
+Miniconda3-latest-Linux-x86_64.sh.1  miniconda3         practice_folder.txt  test0.sh          test3.sh
+TechniquesII                         note.sh            practice_folder3     test10.sh         test9.sh
+(base) root@H223-GL-LT2:~# pwd
+/root
+(base) root@H223-GL-LT2:~# nano test12.sh
+(base) root@H223-GL-LT2:~# ls
+123.txt                              crop_div.txt       pheno                practice_lab.txt  test11.sh
+For                                  downloads          practice.sh          sample.txt        test12.sh
+Miniconda3-latest-Linux-x86_64.sh    home_practice.txt  practice_folder      test.sh           test2.sh
+Miniconda3-latest-Linux-x86_64.sh.1  miniconda3         practice_folder.txt  test0.sh          test3.sh
+TechniquesII                         note.sh            practice_folder3     test10.sh         test9.sh
+(base) root@H223-GL-LT2:~# nano test12.sh
+(base) root@H223-GL-LT2:~# bash test12.sh
+test12.sh: line 4: cd: /root/TechniduesII: No such file or directory
+(base) root@H223-GL-LT2:~# nano test12.sh
+(base) root@H223-GL-LT2:~# bash test12.sh
+test12.sh: line 4: cd: TechniduesII: No such file or directory
+mkdir: cannot create directory ‘assignment’: File exists
+(base) root@H223-GL-LT2:~# ls
+123.txt                              assignment         note.sh              practice_folder3  test10.sh  test9.sh
+For                                  crop_div.txt       pheno                practice_lab.txt  test11.sh
+Miniconda3-latest-Linux-x86_64.sh    downloads          practice.sh          sample.txt        test12.sh
+Miniconda3-latest-Linux-x86_64.sh.1  home_practice.txt  practice_folder      test.sh           test2.sh
+TechniquesII                         miniconda3         practice_folder.txt  test0.sh          test3.sh
+(base) root@H223-GL-LT2:~#
